@@ -11,7 +11,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "miradnan\\assets\\src\\s": "" }
+        "psr-4": { "miradnan\\assets\\src\\": "" }
     },
     "extra": {
         "branch-alias": {
