@@ -12,14 +12,6 @@ use yii\web\AssetBundle AS YiiAssetBundle;
  */
 class AssetBundle extends YiiAssetBundle {
 
-    protected $config = [];
-
-    public function init() {
-        $this->config = Yii::$app->get('assets-compressor');
-
-        pr($this->config);
-    }
-
     public static function register($view) {
         $assetClass = '\\' . get_called_class();
 
